@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html> 
+  <head> 
+  <title>Shatia's Chicken Survey</title>
+  <link rel="stylesheet" href="./styles.css">
+  </head>
+  <body> 
+    <h1 id="title">Shatia's Chicken Survey</h1>
+    <p id="description">This food survey will consist of the best fried chicken restaurants around. Please fill out the survey!</p>
+  <form id="survey-form"> 
+      <label id="name-label">Name
+        <input id="name" type="text"   required placeholder="Enter your name here">
+        </label>
+      <label id="email-label">Email
+        <input id="email" required placeholder="Enter your Email address" type="email" value="user@email.com">
+         </label>
+        <label id="number-label" >Number
+          <input id="number" min="0" max="100" placeholder="Age" type="number">
+          </label>
+        <label id="select-label">Do you love to eat fried chicken?
+        </label>
+      <select id="dropdown"> 
+        <option name=>Select One
+        </option>
+        <option name=>Yes
+        </option>
+        <option name=>No
+        </option>
+        <option name=>Maybe
+        </option>
+      </select>
+        <label id="select-label">Which is your favorite place to eat chicken
+        </label>
+      <select id="dropdown"> 
+        <option name=>Select One
+        </option>
+        <option name=>Chic-Fil-A
+        </option>
+        <option name=>Huey McGoos
+        </option>
+        <option name=>Raising Canes
+        </option>
+      </select>
+        <label id="select-label">Who has the best sauce?</label>
+      <select id="dropdown"> 
+        <option name=>Select One</option>
+        <option name=>Chic-Fil-A</option>
+        <option name=>Huey McGoos</option>
+        <option name=>Raising Canes</option>
+      </select>
+        <label id="select-label">Who has the best customer service?</label>
+  <select id="dropdown"> 
+    <option name=>Select One</option>
+    <option name=>Chic-Fil-A</option>
+    <option name=>Huey McGoos</option>
+    <option name=>Raising Canes</option>
+      </select>
+    <fieldset id="group1">
+      <label id="best-restaurant">Which is the best restaurant?</label>
+      <label><input type="radio" class="inline" name="radAnswer" value="1">Chic-Fil-A</label>
+      <label><input type="radio" class="inline" name="radAnswer" value="2">Huey McGoos</label>
+      <label><input type="radio" class="inline" name="radAnswer" value="3">Raising Canes</label>
+    </fieldset>
+    <fieldset id="group2">
+ <label id="best-restaurant">Who comes in a close second?</label>
+      <label><input type="radio" class="inline" name="radAnswer" value="1">Chic-Fil-A</label>
+      <label><input type="radio" class="inline" name="radAnswer" value="2">Huey McGoos</label>
+      <label><input type="radio" class="inline" name="radAnswer" value="3">Raising Canes</label>
+    </fieldset>
+      <label>Please check your favorite meal(s)</label>
+      <label><input type="checkbox" value="1">Chicken Sandwich</label>
+      <label><input type="checkbox" value="2">Chicken Strips</label>
+      <label><input type="checkbox" value="3">Chicken Wrap</label>
+      <label><input type="checkbox" value="4"> Spicy Chicken Sandwich</label>
+      <label><input type="checkbox" value="5">All of them! I LOVE Chicken</label>
+      <label>Additional Comments</label><textarea name="additional-comments" placeholder="Tell us more about your favorite chicken" rows="3" cols="30"></textarea></label>
+      <label>Submit for a chance to win a free meal at your favorite restaurant!</label>
+    <input id="submit" type="submit" value="Submit">
+  </form>
+  </body>
+</html>
